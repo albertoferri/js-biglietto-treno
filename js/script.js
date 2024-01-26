@@ -3,9 +3,9 @@ const range = prompt("Ciao!!, qual'è il numero di km che vuoi percorrere?");
 const age = prompt("Quanti anni hai?");
 
 // verifica input
-if (isNaN(age)){
+if ((age > 120) && !isNaN(age)){
     alert("Inserisci una data valida!")
-} else if (range = "-"){
+} else if (range < 1){
     alert("Inserisci un numero valido!")
 }
 
