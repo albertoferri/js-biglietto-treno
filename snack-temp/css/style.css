@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'nova_roundbold';
+    src: url('../fonts/novaround-bold-webfont.woff2') format('woff2'),
+         url('../fonts/novaround-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'nova_roundbook';
+    src: url('../fonts/novaround-book-webfont.woff2') format('woff2'),
+         url('../fonts/novaround-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: crimson;
+    font-family: 'nova_roundbook';
+}
+
+.temp-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-size: 30px;
+}
+
+.temp-container h1{
+    font-family: 'nova_roundbold';
+}
