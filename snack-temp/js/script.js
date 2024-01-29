@@ -1,4 +1,6 @@
-// inserisco prompt per temperatura
-const temperatura = prompt("Quanti gradi ci sono? (in °C perfavore");
+// Ottieni l'input dall'utente utilizzando un prompt
+let celsiusInput = prompt("Inserisci la temperatura in gradi Celsius:");
 
-// verifica input
+// Converti l'input in un numero
+let celsius = parseFloat(celsiusInput);
+
