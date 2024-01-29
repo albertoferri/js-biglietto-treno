@@ -2,3 +2,13 @@ body{
     background-color: forestgreen;
     font-family: sans-serif;
 }
+
+.game-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-size: 30px;
+}

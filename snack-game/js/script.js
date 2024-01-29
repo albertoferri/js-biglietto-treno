@@ -14,7 +14,7 @@ if (userChoice === "sasso" && randomChoice === "carta"){
 } else if (userChoice === "forbice" && randomChoice === "sasso"){
     document.getElementById("result").innerHTML = "HAI PERSO! AHAHAHA";
 } else if (userChoice === randomChoice){
-    document.getElementById("result").innerHTML = "PARITA'"
+    document.getElementById("result").innerHTML = "NON HAI NE VINTO NE PERSO MI DISPIACE!"
 } else {
     document.getElementById("result").innerHTML = "HAI VINTO!";
 }
